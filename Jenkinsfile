@@ -9,7 +9,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/vijaycloud3092-ship-it/Trend.git'
+                git branch:'main',url: 'https://github.com/vijaycloud3092-ship-it/Trend.git'
             }
         }
 
