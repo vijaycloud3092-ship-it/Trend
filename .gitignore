@@ -1,5 +1,7 @@
-node_modules
-.git
-Dockerfile
-dist
-.env
+terraform/.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+node_modules/
+dist/
+build/
